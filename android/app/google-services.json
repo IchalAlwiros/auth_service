@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "982153343178",
+    "project_id": "latihanauth-6e8a7",
+    "storage_bucket": "latihanauth-6e8a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982153343178:android:5d14def5e8e9cbfd63c433",
+        "android_client_info": {
+          "package_name": "com.example.authtask_bootcamp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982153343178-57uat53rb7flh78btnv9m9ca54ogu4jd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDhgWXc3xV9Lz6RoaFiz0WvyjIfq19aps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982153343178-57uat53rb7flh78btnv9m9ca54ogu4jd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982153343178:android:9770a0239671962463c433",
+        "android_client_info": {
+          "package_name": "com.example.final_project_bootcampflutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982153343178-57uat53rb7flh78btnv9m9ca54ogu4jd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDhgWXc3xV9Lz6RoaFiz0WvyjIfq19aps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982153343178-57uat53rb7flh78btnv9m9ca54ogu4jd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
