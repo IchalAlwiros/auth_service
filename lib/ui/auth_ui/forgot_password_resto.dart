@@ -32,34 +32,6 @@ class _ResetPasswordState extends State<ResetPassword> {
     super.dispose();
   }
 
-  resetPassword() async {
-    try {
-      await FirebaseAuth.instance.sendPasswordResetEmail(email: email);
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          backgroundColor: Colors.orangeAccent,
-          content: Text(
-            'Password Reset Email has been sent !',
-            style: TextStyle(fontSize: 18.0),
-          ),
-        ),
-      );
-    } on FirebaseAuthException catch (e) {
-      if (e.code == 'user-not-found') {
-        print('No user found for that email.');
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            backgroundColor: Colors.orangeAccent,
-            content: Text(
-              'No user found for that email.',
-              style: TextStyle(fontSize: 18.0),
-            ),
-          ),
-        );
-      }
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
     final resetPasswordProvider = Provider.of<AuthServices>(context);
@@ -103,7 +75,8 @@ class _ResetPasswordState extends State<ResetPassword> {
           setState(() {
             email = _emailController!.text;
           });
-          resetPassword();
+          resetPasswordProvider.resetPassword(context, email);
+          //resetPassword();
         }
       },
       height: MediaQuery.of(context).size.height - 790,
