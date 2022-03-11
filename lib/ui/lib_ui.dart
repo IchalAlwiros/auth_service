@@ -21,7 +21,7 @@ export '../widgets/shimmer_loading.dart';
 export 'details_screen_resto.dart';
 
 export 'package:final_project_bootcampflutter/services/auth/Auth_services.dart';
-export 'package:final_project_bootcampflutter/ui/register_screen_resto.dart';
+export 'package:final_project_bootcampflutter/ui/auth_ui/register_screen_resto.dart';
 export 'package:google_fonts/google_fonts.dart';
 export 'package:provider/provider.dart';
 
